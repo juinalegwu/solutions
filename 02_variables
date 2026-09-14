@@ -1,0 +1,8 @@
+score = 95
+print(score)
+
+gpa = 3.8
+print(type(gpa))
+
+is_weekend = False
+print(is_weekend)
