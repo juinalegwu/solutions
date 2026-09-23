@@ -43,3 +43,19 @@ while number <= 15:
         continue
     print(number)
     number += 1
+
+names = ["favy", "dorina" "preshy", "jaycee"]
+lengths = [len(name) for name in names]
+print(lengths)
+
+
+def multiply(a, b):
+    return a * b
+result = multiply(4, 5)
+print(result)
+
+
+name = "Alice"
+greeting = f"Hello, {name}!"
+calc = f"2 + 2 = {2 + 2}"
+print(greeting)
