@@ -19,3 +19,13 @@ student["gpa"] = 3.9
 student["age"] = 21
 
 print(student)
+
+
+score = 85
+if score >= 90:
+    print("Excellent")
+if score <= 70:
+    print("Good")
+else:
+    print("Needs Improvement")
+    
