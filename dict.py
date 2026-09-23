@@ -28,4 +28,18 @@ if score <= 70:
     print("Good")
 else:
     print("Needs Improvement")
-    
+
+
+total = 0
+for number in range(1, 51):
+    total = total + number
+print(total)
+
+
+number = 1 
+while number <= 15:
+    if number % 2 == 0:
+        number += 1
+        continue
+    print(number)
+    number += 1
